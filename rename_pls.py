@@ -1,5 +1,3 @@
-# this was easier than I thought HAHA labyu
-
 import os, time, sys
 from datetime import datetime
 
