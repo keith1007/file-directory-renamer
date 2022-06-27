@@ -1,5 +1,5 @@
 # file-directory-renamer
-Wrote this python file that renames images in a folder with subfolders to another folder (cuts and renames, not copies and renames). This works when the subfolders have dates as their names and it renames each image inside each subfolder to "<date> - <number>" ordered chronologically from earliest to latest by image modification date and time. 
+Wrote this python file that renames images in a folder with subfolders to another folder (cuts and renames, not copies and renames). This works when the subfolders have dates as their names and it renames each image inside each subfolder to "(date) - (number)" ordered chronologically from earliest to latest by image modification date and time. 
 
 ## Hierarchy 
 ### Before Running the Code
@@ -43,7 +43,7 @@ Wrote this python file that renames images in a folder with subfolders to anothe
 python rename_pls.py <source folder> <target folder>
 ```
 
-## Sample: 
+### Sample: 
 ```
 python rename_pls.py samples final_output
 ```
