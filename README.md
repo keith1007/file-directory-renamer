@@ -48,6 +48,15 @@ python rename_pls.py <source folder> <target folder>
 python rename_pls.py samples final_output
 ```
 
+# Windows Executable 
+```
+rename_pls.exe
+```
+Click the exe and an input prompt will show up, type the input and output folders to get it to work. Transformed the **"rename_pls_inputver.py"** into an .exe using:
+```
+pyinstaller --noconfirm --onefile --console 'rename_pls_inputver.py'
+``` 
+
 # To Do's
 1. Make it a copy-rename instead of cut-rename 
 2. Transform into a script so no python install required 
